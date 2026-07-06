@@ -67,8 +67,8 @@ const Contact = () => {
                     <div className="flex gap-6 mb-12">
                         <SocialIcon Icon={Linkedin} href="https://www.linkedin.com/in/aditya-kumari-1890b6252" label="LinkedIn" />
                         {/* <SocialIcon Icon={Github} href="https://github.com/Chinmayjoshi2005" label="GitHub" />
-                        <SocialIcon Icon={Twitter} href="https://x.com/Chinmay30Joshi" label="Twitter" />
-                        <SocialIcon Icon={Instagram} href="https://www.instagram.com/chinubhai2005/" label="Instagram" /> */}
+                        <SocialIcon Icon={Twitter} href="https://x.com/Srishti" label="Twitter" />
+                        <SocialIcon Icon={Instagram} href="https://www.instagram.com/srishti/" label="Instagram" /> */}
                         <SocialIcon Icon={Mail} href="mailto:srishtisoni2502@gmail.com" label="Email" />
                     </div>
                 </motion.div>
@@ -85,7 +85,7 @@ const Contact = () => {
 
                     {/* Native HTML Form to robustly trigger FormSubmit.co */}
                     <form
-                        action="https://formsubmit.co/chinmay30joshi@gmail.com"
+                        action="https://formsubmit.co/srishtisoni2502@gmail.com"
                         method="POST"
                         onSubmit={handleSubmit}
                         className="p-8 rounded-3xl bg-[var(--color-bg-card)]/50 border border-white/10 backdrop-blur-xl hover:border-[var(--color-primary)]/30 transition-colors relative overflow-hidden"

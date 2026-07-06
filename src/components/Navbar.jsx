@@ -52,7 +52,7 @@ const Navbar = () => {
 
                     <div className="flex gap-4">
                         <a
-                            href="/Chinmay_Joshi_Resume.pdf"
+                            href="/srishti_resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-2 text-sm font-medium text-white border border-white/20 rounded-lg hover:bg-white/5 hover:border-[var(--color-primary)] hover:text-[var(--color-primary)] transition-all duration-300 flex items-center gap-2"
@@ -60,7 +60,7 @@ const Navbar = () => {
                             <span>View Resume</span>
                         </a>
                         <a
-                            href="/Chinmay_Joshi_Resume.pdf"
+                            href="/srishti_resume.pdf"
                             download
                             className="px-4 py-2 text-sm font-medium text-black bg-[var(--color-primary)] rounded-lg hover:bg-[var(--color-secondary)] hover:text-white transition-all duration-300 shadow-[0_0_15px_rgba(0,240,255,0.3)] hover:shadow-[0_0_25px_rgba(112,0,255,0.5)] flex items-center gap-2"
                         >
@@ -100,7 +100,7 @@ const Navbar = () => {
                             ))}
                             <div className="h-[1px] w-full bg-white/10 my-2" />
                             <a
-                                href="/Chinmay_Joshi_Resume.pdf"
+                                href="/srishti_resume.pdf"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-center py-2 border border-white/20 rounded text-white hover:bg-white/5 transition-colors"
@@ -108,7 +108,7 @@ const Navbar = () => {
                                 View Resume
                             </a>
                             <a
-                                href="/Chinmay_Joshi_Resume.pdf"
+                                href="/srishti_resume.pdf"
                                 download
                                 className="text-center py-2 bg-[var(--color-primary)] text-black rounded font-medium"
                             >
