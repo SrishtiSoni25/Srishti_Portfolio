@@ -44,7 +44,7 @@ const About = () => {
                             <div className="space-y-4">
                                 <div className="flex items-start gap-4 text-gray-400 group/item hover:text-white transition-colors cursor-default">
                                     <MapPin className="mt-1 shrink-0 text-[var(--color-primary)]" />
-                                    <span>Kehri Gaon, Prem Nagar, Uttarakhand, India</span>
+                                    <span>Kehri Gaon, Prem Nagar,Dehradun, Uttarakhand</span>
                                 </div>
                                 <div className="flex items-center gap-4 text-gray-400 group/item hover:text-white transition-colors cursor-default">
                                     <Phone className="shrink-0 text-[var(--color-primary)]" />

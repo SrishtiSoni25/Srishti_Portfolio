@@ -103,7 +103,7 @@ const Experience = () => {
             </div>
         </motion.div>
 
-                        {/* 12th */}
+                                               {/* 12th */}
                         <motion.div
                             whileHover={{ x: 10 }}
                             className="bg-[var(--color-bg-card)]/30 p-6 rounded-xl border border-white/5 hover:border-[var(--color-primary)]/30 transition-all duration-300"
@@ -112,38 +112,21 @@ const Experience = () => {
                                 <h3 className="text-xl font-bold text-white">
                                     Senior Secondary (Class XII), CBSE
                                 </h3>
+
                                 <div className="text-[var(--color-primary)] font-mono whitespace-nowrap">
                                     2021
                                 </div>
                             </div>
+
                             <div className="text-lg text-gray-300 font-medium mb-2">
                                 Camford Public School
                             </div>
+
                             <div className="text-gray-400">
                                 Percentage: 78.8%
                             </div>
                         </motion.div>
 
-                        {/* 10th */}
-                        <motion.div
-                            whileHover={{ x: 10 }}
-                            className="bg-[var(--color-bg-card)]/30 p-6 rounded-xl border border-white/5 hover:border-[var(--color-primary)]/30 transition-all duration-300"
-                        >
-                            <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                                <h3 className="text-xl font-bold text-white">
-                                    Secondary (Class X), CBSE
-                                </h3>
-                                <div className="text-[var(--color-primary)] font-mono whitespace-nowrap">
-                                    2019
-                                </div>
-                            </div>
-                            <div className="text-lg text-gray-300 font-medium mb-2">
-                                St.Lawrence Academy 
-                            </div>
-                            <div className="text-gray-400">
-                                Percentage: 86.4%
-                            </div>
-                        </motion.div>
                     </div>
                 </motion.div>
 

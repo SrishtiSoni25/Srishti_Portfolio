@@ -15,18 +15,18 @@ const projects = [
             github: "#"
         }
     },
-    {
-        title: "Plant Disease Detection",
-        category: "Machine Learning",
-        tech: ["Python", "TensorFlow", "Keras", "OpenCV"],
-        description:
-            "Developed a deep learning model to identify plant diseases from leaf images using CNNs. The application helps farmers detect crop diseases early, improving productivity and reducing losses.",
-        image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80",
-        links: {
-            demo: "#",
-            github: "#"
-        }
-    },
+    // {
+    //     title: "Plant Disease Detection",
+    //     category: "Machine Learning",
+    //     tech: ["Python", "TensorFlow", "Keras", "OpenCV"],
+    //     description:
+    //         "Developed a deep learning model to identify plant diseases from leaf images using CNNs. The application helps farmers detect crop diseases early, improving productivity and reducing losses.",
+    //     image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80",
+    //     links: {
+    //         demo: "#",
+    //         github: "#"
+    //     }
+    
     {
         title: "Real Estate Web Platform",
         category: "Full Stack Development",

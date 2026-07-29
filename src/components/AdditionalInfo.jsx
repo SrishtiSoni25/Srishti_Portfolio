@@ -20,8 +20,8 @@ const AdditionalInfo = () => {
                 <div className="space-y-4">
                     {[
                         { label: "Languages:", value: "Hindi (Native), English." },
-                        // { label: "Affiliations:", value: "Member and Team Leader at I.R.I.S Robotics Club, JIT." },
-                        { label: "Achievements:", value: "Google Cloud Arcade Player 2025." }
+                        { label: "Affiliations:", value: "Contributor for GSSoC'26." },
+                        { label: "Achievements:", value: "Microsoft Certified:SQL AI Developer Associate." }
                     ].map((item, index) => (
                         <motion.div
                             key={index}
