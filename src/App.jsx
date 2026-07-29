@@ -9,7 +9,7 @@ import Background from './components/Background';
 import Experience from './components/Experience';
 import AdditionalInfo from './components/AdditionalInfo';
 import About from './components/About';
-import Chatbot from './components/Chatbot';
+import Chatbot from './components/chatbot';
 
 function App() {
   useEffect(() => {
