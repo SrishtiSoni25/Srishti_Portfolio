@@ -27,18 +27,18 @@ const Experience = () => {
                             className="bg-[var(--color-bg-card)]/30 p-6 rounded-xl border border-white/5 hover:border-[var(--color-primary)]/30 transition-all duration-300"
                         >
                             <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
-                                <h3 className="text-2xl font-bold text-white">Python Programming Intern</h3>
+                                <h3 className="text-2xl font-bold text-white">Web Developer Intern</h3>
                                 <div className="text-[var(--color-primary)] font-mono whitespace-nowrap">
-                                    September 2025 – December 2025
+                                    June 2025 – August 2025
                                 </div>
                             </div>
                             <div className="text-lg text-gray-300 font-medium mb-4">
                                 Web Developer (Internship)
                             </div>
                             <ul className="list-disc list-outside ml-5 text-gray-400 space-y-2 leading-relaxed">
-                                <li>Completed a 1 month virtual internship focused on Python programming and problem solving.</li>
-                                <li>Demonstrated strong analytical skills, quick learning ability, and adaptability to new technologies.</li>
-                                <li>Collaborated effectively on assigned tasks and delivered consistent, quality outcomes.</li>
+                                <li> Created reusable components, implemented dynamic property listings, and integrated Firebase/Firestore to efficiently manage application data.</li>
+                                <li>Enhanced user experience by optimizing page performance, implementing responsive layouts, and improving navigation across devices.</li>
+                                <li>Collaborated with mentors and team members using Git, followed Agile development practices, and contributed to feature development and bug fixes.</li>
                             </ul>
                         </motion.div>
                     </div>
@@ -79,6 +79,29 @@ const Experience = () => {
                                 Current CGPA: 8.23
                             </div>
                         </motion.div>
+                        {/* BCA */}
+        <motion.div
+            whileHover={{ x: 10 }}
+            className="bg-[var(--color-bg-card)]/30 p-6 rounded-xl border border-white/5 hover:border-[var(--color-primary)]/30 transition-all duration-300"
+        >
+            <div className="flex flex-col md:flex-row md:justify-between md:items-start mb-2">
+                <h3 className="text-xl md:text-2xl font-bold text-white">
+                    Bachelor of Computer Applications (BCA)
+                </h3>
+
+                <div className="text-[var(--color-primary)] font-mono whitespace-nowrap mt-2 md:mt-0">
+                    2021 – 2024
+                </div>
+            </div>
+
+            <div className="text-lg text-gray-300 font-medium mb-2">
+                St. Xavier's College of Management & Technology, Patna
+            </div>
+
+            <div className="text-gray-400">
+                CGPA: <span className="text-white font-semibold">9.07 / 10</span>
+            </div>
+        </motion.div>
 
                         {/* 12th */}
                         <motion.div

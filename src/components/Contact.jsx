@@ -65,14 +65,25 @@ const Contact = () => {
                     </div>
 
                     <div className="flex gap-6 mb-12">
-                        <SocialIcon Icon={Linkedin} href="https://www.linkedin.com/in/aditya-kumari-1890b6252" label="LinkedIn" />
-                        {/* <SocialIcon Icon={Github} href="https://github.com/Chinmayjoshi2005" label="GitHub" />
-                        <SocialIcon Icon={Twitter} href="https://x.com/Srishti" label="Twitter" />
-                        <SocialIcon Icon={Instagram} href="https://www.instagram.com/srishti/" label="Instagram" /> */}
-                        <SocialIcon Icon={Mail} href="mailto:srishtisoni2502@gmail.com" label="Email" />
-                    </div>
-                </motion.div>
+    <SocialIcon
+        Icon={Linkedin}
+        href="https://www.linkedin.com/in/srishti-kumari-6135a8224/"
+        label="LinkedIn"
+    />
 
+    <SocialIcon
+        Icon={Github}
+        href="https://github.com/SrishtiSoni25"
+        label="GitHub"
+    />
+
+    <SocialIcon
+        Icon={Mail}
+        href="mailto:srishtisoni2502@gmail.com"
+        label="Email"
+    />
+</div>
+</motion.div>
                 {/* Right Column: Contact Form */}
                 <motion.div
                     initial={{ opacity: 0, x: 50 }}

@@ -9,6 +9,7 @@ import Background from './components/Background';
 import Experience from './components/Experience';
 import AdditionalInfo from './components/AdditionalInfo';
 import About from './components/About';
+import Chatbot from './components/Chatbot';
 
 function App() {
   useEffect(() => {
@@ -61,6 +62,7 @@ function App() {
           © {new Date().getFullYear()} Srishti kumari. <span className="text-[var(--color-primary)]">ENGINEERED FOR THE FUTURE.</span>
         </p>
       </footer>
+      <Chatbot />
     </div>
   );
 }

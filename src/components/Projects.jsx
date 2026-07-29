@@ -4,39 +4,54 @@ import { ArrowUpRight, Github, ExternalLink } from 'lucide-react';
 
 const projects = [
     {
-        title: "Python Internship Certification",
-        category: "Certification",
-        tech: ["CodeAlpha", "Python"],
-        description: "Completed Python Programming Internship Certification from CodeAlpha, demonstrating proficiency in core Python concepts and problem-solving.",
-        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&q=80",
-        links: { demo: "#", github: "#" }
+        title: "LegalAid AI",
+        category: "AI-Powered Legal Assistant",
+        tech: ["React", "Node.js", "Express", "MongoDB", "Gemini AI"],
+        description:
+            "An AI-powered legal assistance platform that provides legal guidance, document support, and multilingual assistance. Designed to make legal services more accessible through an intuitive and responsive web interface.",
+        image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200&q=80",
+        links: {
+            demo: "#",
+            github: "#"
+        }
     },
     {
-        title: "Pro ML Engineer",
-        category: "Certification",
-        tech: ["Google Cloud", "Machine Learning"],
-        description: "Google Cloud Certified Professional Machine Learning Engineer (Guide based). Validation of advanced ML implementation skills on GCP.",
-        image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=1200&q=80",
-        links: { demo: "#", github: "#" }
+        title: "Plant Disease Detection",
+        category: "Machine Learning",
+        tech: ["Python", "TensorFlow", "Keras", "OpenCV"],
+        description:
+            "Developed a deep learning model to identify plant diseases from leaf images using CNNs. The application helps farmers detect crop diseases early, improving productivity and reducing losses.",
+        image: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=1200&q=80",
+        links: {
+            demo: "#",
+            github: "#"
+        }
     },
     {
-        title: "Python GUI Applications",
-        category: "Desktop Development",
-        tech: ["Python", "Tkinter"],
-        description: "Robust desktop applications utilizing Tkinter. focused on complex logic building, intuitive user interaction, and clean architecture.",
-        image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=1200&q=80",
-        links: { demo: "#", github: "#" }
+        title: "Real Estate Web Platform",
+        category: "Full Stack Development",
+        tech: ["Angular", "TypeScript", "Firebase", "Bootstrap"],
+        description:
+            "Built a responsive real estate platform during my internship at Investor Home Solutions featuring dynamic property listings, reusable Angular components, and Firebase integration for seamless data management.",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80",
+        links: {
+            demo: "#",
+            github: "#"
+        }
     },
     {
-        title: "Data Analysis & ML Projects",
-        category: "Data Science",
-        tech: ["Python", "Pandas", "Matplotlib"],
-        description: "Comprehensive data analysis projects applying statistical methods and machine learning algorithms to derive actionable insights.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-        links: { demo: "#", github: "#" }
+        title: "Movie Recommendation System",
+        category: "Machine Learning",
+        tech: ["Python", "Streamlit", "Pandas", "TMDB API"],
+        description:
+            "Designed a content-based movie recommendation system that suggests similar movies using cosine similarity and TMDB API integration, delivered through an interactive Streamlit interface.",
+        image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=1200&q=80",
+        links: {
+            demo: "#",
+            github: "#"
+        }
     }
 ];
-
 const ProjectCard = ({ project, index }) => {
     return (
         <motion.div
